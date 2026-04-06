@@ -16,10 +16,10 @@ with col1:
     
     # Basic Info
     with st.expander("Personal Details", expanded=True):
-        name = st.text_input("Full Name", value="Aaron Sebastian Fabian")
-        license = st.text_input("License Info", value="Licensed Aeronautical Engineer (Reg. No. 0004056)")
-        email = st.text_input("Email", value="aaron.fabian888@gmail.com")
-        phone = st.text_input("Phone", value="+639617469906")
+        name = st.text_input("Full Name", value="Juan Dela Cruz")
+        license = st.text_input("License Info", value="Licensed Aeronautical Engineer")
+        email = st.text_input("Email", value="your.email@example.com")
+        phone = st.text_input("Phone", value="+63")
         address = st.text_area("Address", value="Parañaque City, Philippines 1715")
 
     # Experience
