@@ -103,4 +103,4 @@ with col2:
     # Download Button
     b64 = base64.b64encode(html_out.encode()).decode()
     href = f'<a href="data:text/html;base64,{b64}" download="Resume_{name}.html" style="text-decoration:none;"><button style="width:100%; height:50px; background-color:#2c3e50; color:white; border:none; border-radius:5px; cursor:pointer;">Download as HTML (Print to PDF from Browser)</button></a>'
-    st.markdown(href, unsafe_base64=True)
+    st.markdown(href, unsafe_allow_html=True)
